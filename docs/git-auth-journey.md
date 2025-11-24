@@ -115,20 +115,3 @@ The SSH workflow became the final, stable solution for pushing projects from the
 
 ---
 
-### **Step reminder for adding it to your repo:**
-
-1. Open nano on your Pi:
-
-```bash
-nano docs/git-auth-journey.md
-
-
-Paste the content above.
-
-Save with Ctrl + O → Enter, then exit with Ctrl + X.
-
-Add, commit, and push:
-
-git add docs/git-auth-journey.md
-git commit -m "Add GitHub authentication journey"
-git push
